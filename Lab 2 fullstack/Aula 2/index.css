@@ -115,6 +115,24 @@ h5{
     font-size: 18pt;
     margin-top: 150px;
 }
+.linha1{
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    margin-top: 0px;
+}
+.linha2{
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    margin-top: 0px;
+}
+.linha3{
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    margin-top: 0px;
+}
 .rodape{
     background-color: rgb(56, 16, 94);
     color: white;
