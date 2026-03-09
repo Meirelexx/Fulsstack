@@ -1,117 +1,180 @@
 body {
-    margin: 0;
-    background-color: #d3d3d3;
+    margin: 1;
+    background-color: #cecece;
     font-family: Sans-Serif;
     text-align: center;
 }
 
 
 .topo {
-    background-color: #e6cfae;
+    background-color: #f8e4c7;
     border: 4px solid navy;
-    padding: 25px;
-    position: relative;
+    padding: 30px;
+    
+    display: flex;
+    align-items: center;      /* centraliza verticalmente */
+    justify-content: space-between; /* esquerda - centro - direita */
 }
 
 .topo h1 {
     margin: 0;
-    color: green;
+    color: rgb(0, 88, 0);
+    flex: 1;
+    text-align: center;
+    font-size: 60px;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 
 .logo-esquerda {
-    position: absolute;
-    left: 20px;
-    top: 0px;
-    width: 80px;
+    width: 190px;
 }
 
 .logo-direita {
-    position: absolute;
-    right: 20px;
-    top: 0px;
-    width: 80px;
+    width: 190px;
 }
 
 
 .menu {
-    background-color: #87b7d9;
-    padding: 10px;
+    background-color: #94bfdd;
+    padding: 20px;
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+
+    display: flex;
+    justify-content: center;
+    gap: 140px;
 }
 
 .menu a {
     text-decoration: none;
-    margin: 0 25px;
-    font-weight: bold;
     color: darkred;
 }
 
 
 .secao {
-    padding: 30px;
+    padding:10px;
+    margin-top: 10px;
 }
 
 .secao h2 {
-    font-family: serif;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 10px;
+    font-size: 25pt;
+    text-align: center;
+}
+
+.secao h3 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25pt;
+    text-align: center;
+    margin-top: 60px;
+}
+
+.secao h4 {
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 10px;
+    font-size: 25pt;
+    text-align: center;
+    margin-top: 60px;
 }
 
 .secao p {
-    width: 80%;
+    width: 100%;
     margin: 15px auto;
     text-align: center;
-    font-size: 18px;
-    color: purple;
+    font-family: sans-serif;
+    font-size: 20pt;
+    color: rgb(84, 0, 139);
+    font-weight: lighter;
 }
 
+.centro {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+    align-items: center;
+}
 
 .centro img {
-    width: 200px;
+    width: auto;
+    height: 400px;
     margin: 20px;
 }
 
 
 table {
     margin: 20px auto;
-    border-collapse: collapse;
-    border: 3px dashed red;
+    border-collapse: separate;
+    border: 5px dashed red;
+    border-spacing: 2px;
 }
 
 th, td {
-    border: 1px solid gray;
-    padding: 10px 20px;
+    border: 1px solid red;
+    padding: 8px 10px;
 }
 
 th {
-    background-color: #f2f2f2;
+    color: red;
+    font-weight: bold;
 }
 
 
 .sites {
     background-color: yellow;
-    width: 400px;
+    width: 500px;
     margin: 20px auto;
-    padding: 15px;
+    padding: px;
     text-align: left;
+    height: 100px;
+    font-size: 14px;
 }
 
+.sites ul {
+    margin-top: 10px;
+    color: rgb(177, 3, 3);
+}
+
+.sites li {
+    margin: 8px 0 px;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.sites a {
+    color: red;
+    text-decoration: none;
+    margin-left: 60px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.sites p {
+    font-weight: normal;
+    font-family: 'Times New Roman', Times, serif;
+}
 
 .rodape {
-    background-color: #e6cfae;
-    padding: 20px;
+    background-color: #f8e4c7;
+    padding: 40px;
     position: relative;
     font-family: Comic Sans MS;
+    font-size: 15pt;
 }
 
 .logo-rodape-esq {
     position: absolute;
-    left: 20px;
+    left: 30px;
     bottom: 10px;
-    width: 60px;
+    width: 120px;
 }
 
 .logo-rodape-dir {
     position: absolute;
     right: 20px;
     bottom: 10px;
-    width: 60px;
+    width: 85px;
 }
