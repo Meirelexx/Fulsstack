@@ -1,0 +1,43 @@
+.menu{
+    justify-content: flex-start;
+    display: flex;
+    gap: 100px;
+    color: rgb(99, 95, 95);
+    font-size: 40pt;
+    margin-left: 160px;
+    margin-top: 20px;
+    padding: 40px;
+}
+
+.links{
+    color: rgb(147, 152, 156);
+}
+
+.correios_subs{
+display: flex;
+justify-content: space-between;
+margin: 10px;
+}
+
+.correio{
+    width: 1200px;
+    height: auto;
+}
+.ctt_horas{
+font-size: 50px;
+justify-content: flex-end;
+align-items: center;
+margin-top: 100px;
+display: inline;
+}
+
+.linha1{
+    justify-content: space-around;
+    text-wrap: unset;
+}
+
+.linha2{
+    justify-content: space-around;
+    gap: 10px;
+    color:rgb(99, 95, 95);
+}
