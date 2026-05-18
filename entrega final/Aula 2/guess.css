@@ -1,0 +1,49 @@
+.menu{
+    background-color: rgb(0, 0, 66);
+    padding: 35px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+
+    z-index: 1000;
+    
+    font-family:'Times New Roman', Times, serif;
+}
+
+.menu a{
+    color: white;
+    margin-right: 20px;
+    font-weight: bold;
+    align-items: center;
+    font-size: 20px;
+    
+}
+
+
+body{
+    background-color: rgb(0, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 120px;
+}
+
+#container{
+    margin-top: 100px;
+    text-align: center;
+}
+
+input{
+    padding: 10px;
+    font-size: 16px;
+}
+
+button{
+    padding: 10PX;
+    font-size: 16PX;
+    cursor: pointer;
+}
+
+#mensagem{
+    margin-top: 20px;
+    font-weight: bold;
+}
