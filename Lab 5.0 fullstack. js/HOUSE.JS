@@ -1,5 +1,6 @@
-let canvas = document.getElementById('canvas');
-let ctx = canvas.getContext('2d');
+// PRIMEIRO CANVAS
+let canvas1 = document.getElementById('canvas');
+let ctx = canvas1.getContext('2d');
 
 
 //sol
@@ -17,7 +18,7 @@ ctx.lineWidth = 2;
 ctx.fillStyle = 'silver';
 ctx.strokeStyle = 'silver';
 ctx.fillRect(0,270,500,150);
-ctx.strokeRect(0,270,500,150);
+ctx.strokeRect(0,270,500,50);
 ctx.closePath();
 
 //parte azul arco 1
@@ -52,8 +53,8 @@ ctx.closePath();
 ctx.lineWidth = 2;
 ctx.fillStyle = 'blue';
 ctx.strokeStyle = 'blue';
-ctx.fillRect(0,340,160,60);
-ctx.strokeRect(0,340,160,60);
+ctx.fillRect(0,340,160,80);
+ctx.strokeRect(0,340,160,80);
 ctx.closePath();
 
 //arvore 1
@@ -132,3 +133,8 @@ ctx.lineWidth = 2;
 ctx.fillStyle = '#35faf0ff';
 ctx.fillRect(206,200,20,20);
 ctx.closePath();
+
+
+
+
+
