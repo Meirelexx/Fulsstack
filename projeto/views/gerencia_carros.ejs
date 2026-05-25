@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <link rel="stylesheet" href="/style.css">
+
+    <title>Gerenciar Carros</title>
+
+</head>
+
+<body>
+
+    <h1>Gerenciar Carros</h1>
+
+    <!-- CADASTRAR -->
+
+    <h2>Cadastrar Novo Carro</h2>
+
+    <form action="/novo_carro" method="post">
+
+        <input type="text" name="marca" placeholder="Marca">
+
+        <input type="text" name="modelo" placeholder="Modelo">
+
+        <input type="number" name="ano" placeholder="Ano">
+
+        <input type="number" name="quantidade" placeholder="Quantidade">
+
+        <button type="submit">
+
+            Cadastrar
+
+        </button>
+
+    </form>
+
+    <hr>
+
+    <!-- LISTA -->
+
+    <h2>Carros Cadastrados</h2>
+
+    <% carros.forEach(function(carro){ %>
+
+        <div>
+
+            <h3><%= carro.marca %></h3>
+
+            <p>Modelo: <%= carro.modelo %></p>
+
+            <p>Ano: <%= carro.ano %></p>
+
+            <p>Quantidade: <%= carro.quantidade %></p>
+
+            <!-- ATUALIZAR -->
+
+            <form action="/atualizar_carro" method="post">
+
+                <input type="hidden" name="modelo" value="<%= carro.modelo %>">
+
+                <input type="number" name="quantidade" placeholder="Nova quantidade">
+
+                <button type="submit">
+
+                    Atualizar
+
+                </button>
+
+            </form>
+
+            <!-- REMOVER -->
+
+            <form action="/remover_carro" method="post">
+
+                <input type="hidden" name="modelo" value="<%= carro.modelo %>">
+
+                <button type="submit">
+
+                    Remover
+
+                </button>
+
+            </form>
+
+            <!-- VENDER -->
+
+            <form action="/vender_carro" method="post">
+
+                <input type="hidden" name="modelo" value="<%= carro.modelo %>">
+
+                <button type="submit">
+
+                    Vender
+
+                </button>
+
+            </form>
+
+        </div>
+
+        <hr>
+
+    <% }) %>
+
+</body>
+
+</html>

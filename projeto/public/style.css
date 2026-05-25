@@ -1,0 +1,51 @@
+body{
+
+    background-color: lightblue;
+    text-align: center;
+    font-family: Arial;
+
+}
+
+h1{
+
+    color: darkblue;
+
+}
+
+form{
+
+    margin: 10px;
+
+}
+
+input{
+
+    padding: 10px;
+    margin: 5px;
+
+}
+
+button{
+
+    padding: 10px;
+    cursor: pointer;
+
+}
+
+a{
+
+    display: block;
+    margin: 15px;
+    font-size: 22px;
+
+}
+
+div{
+
+    background-color: white;
+    margin: 20px auto;
+    padding: 20px;
+    width: 300px;
+    border-radius: 10px;
+
+}
