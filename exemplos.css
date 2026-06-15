@@ -1,0 +1,58 @@
+Outras propriedade de borda
+ Border-radius - Esta propriedade permite arredondar as bordas de um elemento.
+border-radius: 20px;
+Box-shadow: - Esta propriedade permite aplicar efeito de sombra em um elemento.
+Margin, border, padding, width, height
+IN BLOCK(um embaixo do outro)
+<div>
+<h1> - <h6>
+<p>
+<form>
+<header>
+<footer>
+<section>
+
+INLINE (do lado)
+<span> (parece <div>, mas sendo inline)
+<a>
+<img>
+absoluto a pagina
+relativo a outro elemento
+
+
+Propriedades do flex container:
+flex-direction
+flex-wrap
+flex-flow
+justify-content
+align-content
+align-items
+
+flex-direction: define o fluxo de exibição em que os elementos serão organizados
+row (padrão): linha da esquerda para a direita
+row-reverse: linha da direita para a esquerda
+column: colunas iniciando de cima para baixo
+column-reverse: colunas iniciando de baixo para cima
+
+
+flex-wrap: permite que ocorra a “quebra de linha” nos itens
+nowrap (padrão): Todos os itens serão dispostos em uma linha
+wrap: Ocorrerá a quebra de linha e os itens mais à direita serão deslocados para a linha de baixo
+wrap-reverse: Ocorrerá a quebra de linha e os itens mais à direita serão deslocados para a linha de cima
+
+
+flex-flow: abreviação das propriedades flex-direction e flex-wrap
+
+
+justify-content: alinhamento dos itens ao longo do eixo principal do container
+flex-start (padrão): itens são alinhados a partir do início do eixo principal
+flex-end: itens são alinhados a partir do fim do eixo principal
+center: itens são alinhados no centro do eixo principal
+
+
+JAVA
+
+nenhuma palavra chave
+var, 
+let ou
+const 
